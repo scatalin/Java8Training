@@ -23,8 +23,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Java8Training" />
+        <module name="Lesson1R" />
+        <module name="Lesson2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Java8Training" target="1.8" />
+      <module name="Lesson1R" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
